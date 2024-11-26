@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     fontFamily: "serif",
     fontWeight: "bold",
   },
-  inputViewBottomVerticalTitulo: {
+  inputViewBottomVerticalTitle: {
     marginTop: 30,
   },
   buttonStart: {

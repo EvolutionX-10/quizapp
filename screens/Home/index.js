@@ -7,7 +7,7 @@ export default function Home({ navigation, route }) {
   return (
     <View style={styles.containerInicialPage}>
       <Image source={logo} style={styles.logo}></Image>
-      <Text style={[styles.title, styles.inputViewBottomVerticalTitulo]}>
+      <Text style={[styles.title, styles.inputViewBottomVerticalTitle]}>
         Quiz Game!
       </Text>
       <TouchableOpacity onPress={() => navigation.navigate("Quiz")}>

@@ -122,7 +122,7 @@ export default function Quiz({ navigation }) {
 
       {!isQuizFinished && !questions.length > 0 && (
         <>
-          <Text style={styles.subTituloGamePage}>Select a Theme:</Text>
+          <Text style={styles.subTitleGamePage}>Select a Theme:</Text>
           <ScrollView>
             {themes.map((theme) => (
               <TouchableOpacity

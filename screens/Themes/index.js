@@ -124,12 +124,12 @@ export default function Themes({ navigation, route }) {
           <Icon name="arrow-left" size={30} color="black" />
         </TouchableOpacity>
         <View style={{ flex: 1, alignItems: "center" }}>
-          <Text style={styles.tituloSecondPage}>Themes</Text>
+          <Text style={styles.titleSecondPage}>Themes</Text>
         </View>
       </View>
 
       <Text
-        style={[styles.subTituloSecondPage, styles.inputViewBottomVertical]}
+        style={[styles.subTitleSecondPage, styles.inputViewBottomVertical]}
       >
         Enter the theme name:
       </Text>
