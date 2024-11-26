@@ -13,8 +13,8 @@ export default function EndGame({
 
   return (
     <View style={styles.containerGamePage}>
-      <Text style={styles.tituloGamePage}>Final Summary:</Text>
-      <Text style={styles.subTituloGamePage}>
+      <Text style={styles.titleGamePage}>Final Summary:</Text>
+      <Text style={styles.subTitleGamePage}>
         Congratulations!
       </Text>
       <Text style={styles.textGamePage}>

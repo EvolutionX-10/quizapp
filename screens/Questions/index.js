@@ -176,11 +176,11 @@ export default function Questions({ navigation, route }) {
             <Icon name="arrow-left" size={30} color="black" />
           </TouchableOpacity>
           <View style={{ flex: 1, alignItems: "center" }}>
-            <Text style={styles.tituloThirdPage}>Questões</Text>
+            <Text style={styles.titleThirdPage}>Questions</Text>
           </View>
         </View>
 
-        <Text style={styles.subTituloThirdPage}>Theme</Text>
+        <Text style={styles.subTitleThirdPage}>Theme</Text>
         <View style={styles.picker}>
           <Picker
             selectedValue={selectedTheme}
@@ -192,21 +192,21 @@ export default function Questions({ navigation, route }) {
             ))}
           </Picker>
         </View>
-        <Text style={styles.subTituloThirdPage}>Question Statement</Text>
+        <Text style={styles.subTitleThirdPage}>Question Statement</Text>
         <TextInput
           style={styles.labelThird}
           value={questionText}
           onChangeText={(text) => setQuestionText(text)}
           keyboardType="default"
         />
-        <Text style={styles.subTituloThirdPage}>Correct Answer</Text>
+        <Text style={styles.subTitleThirdPage}>Correct Answer</Text>
         <TextInput
           style={styles.labelThird}
           value={correctAnswer}
           onChangeText={(text) => setCorrectAnswer(text)}
           keyboardType="default"
         />
-        <Text style={styles.subTituloThirdPage}>Incorrect Answers</Text>
+        <Text style={styles.subTitleThirdPage}>Incorrect Answers</Text>
         <TextInput
           style={styles.labelThird}
           value={wrongAnswer1}

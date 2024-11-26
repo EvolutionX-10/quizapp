@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     height: "100%",
     flex: 1,
   },
-  tituloGamePage: {
+  titleGamePage: {
     paddingTop: 10,
     fontSize: 30,
     color: "black",
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     marginVertical: 20,
   },
-  subTituloGamePage: {
+  subTitleGamePage: {
     paddingTop: 50,
     fontSize: 25,
     color: "black",
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     marginVertical: 10,
     textAlign: "center",
   },
-  buttonInsertDataInicial: {
+  buttonInsert: {
     backgroundColor: "black",
     borderRadius: 10,
     width: 140,

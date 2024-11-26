@@ -7,17 +7,17 @@ export default function Home({ navigation, route }) {
   return (
     <View style={styles.containerInicialPage}>
       <Image source={logo} style={styles.logo}></Image>
-      <Text style={[styles.titulo, styles.inputViewBottomVerticalTitulo]}>
+      <Text style={[styles.title, styles.inputViewBottomVerticalTitulo]}>
         Quiz Game!
       </Text>
       <TouchableOpacity onPress={() => navigation.navigate("Quiz")}>
-        <Text style={styles.buttonInicio}>Start Game!</Text>
+        <Text style={styles.buttonStart}>Start Game!</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate("Themes")}>
-        <Text style={styles.buttonTema}>Themes</Text>
+        <Text style={styles.buttonTheme}>Themes</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate("Questions")}>
-        <Text style={styles.buttonQuestao}>Questions</Text>
+        <Text style={styles.buttonQuestion}>Questions</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
     </View>

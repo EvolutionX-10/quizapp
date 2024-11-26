@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     height: "100%",
     flex: 1,
   },
-  tituloSecondPage: {
+  titleSecondPage: {
     paddingTop: 10,
     fontSize: 30,
     color: "black",
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     marginVertical: 20,
   },
-  subTituloSecondPage: {
+  subTitleSecondPage: {
     fontSize: 18,
     color: "black",
     fontFamily: "serif",
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     marginVertical: 10,
     textAlign: "center",
   },
-  buttonInsertDataInicial: {
+  buttonInsert: {
     backgroundColor: "black",
     borderRadius: 10,
     width: 140,

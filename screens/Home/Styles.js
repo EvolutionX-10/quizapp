@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     height: "100%",
     flex: 1,
   },
-  titulo: {
+  title: {
     fontSize: 50,
     color: "black",
     alignItems: "center",
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   inputViewBottomVerticalTitulo: {
     marginTop: 30,
   },
-  buttonInicio: {
+  buttonStart: {
     fontSize: 16,
     textAlign: "center",
     textAlignVertical: "center",
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 230,
   },
-  buttonTema: {
+  buttonTheme: {
     fontSize: 16,
     textAlign: "center",
     textAlignVertical: "center",
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 20,
   },
-  buttonQuestao: {
+  buttonQuestion: {
     fontSize: 16,
     textAlign: "center",
     textAlignVertical: "center",

@@ -116,7 +116,7 @@ export default function Quiz({ navigation }) {
           <Icon name="arrow-left" size={30} color="black" />
         </TouchableOpacity>
         <View style={{ flex: 1, alignItems: "center" }}>
-          <Text style={styles.tituloGamePage}>Quiz</Text>
+          <Text style={styles.titleGamePage}>Quiz</Text>
         </View>
       </View>
 
@@ -148,7 +148,7 @@ export default function Quiz({ navigation }) {
 
           <TouchableOpacity
             onPress={startQuiz}
-            style={styles.buttonInsertDataInicial}
+            style={styles.buttonInsert}
           >
             <Text style={styles.labelGameButton}>Start Quiz</Text>
           </TouchableOpacity>

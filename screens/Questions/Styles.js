@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingBottom: 20,
   },
-  tituloThirdPage: {
+  titleThirdPage: {
     paddingTop: 10,
     fontSize: 30,
     color: "black",
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginVertical: 20,
   },
-  subTituloThirdPage: {
+  subTitleThirdPage: {
     fontSize: 18,
     color: "black",
     fontFamily: "serif",
